@@ -1,9 +1,14 @@
 section {
 	padding: 40px 0;
 }
-
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	font-size: 5rem;
+}
 .navbar {
-	font-weight: 100;
+	font-weight: 400;
 	position: absolute;
 	top: 0;
 	right: 0;
