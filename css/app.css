@@ -2,10 +2,31 @@ section {
 	padding: 40px 0;
 }
 body {
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Open Sans', sans-serif;
 }
 h1 {
 	font-size: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+h5 {
+	margin: 15px 0;
+}
+#img-portfolio {
+	border-radius: 50%;
+}
+
+#skills,
+#greeting,
+#contact {
+	padding: 40px 0;
 }
 .navbar {
 	font-weight: 400;
@@ -24,6 +45,10 @@ h1 {
 .navbar .nav-link:hover {
 	transition: border 0.2s;
 	border-bottom: 1px solid white;
+}
+
+p {
+	line-height: 170%;
 }
 
 #showcase {
