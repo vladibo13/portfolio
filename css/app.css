@@ -1,33 +1,54 @@
-section {
+/* section {
 	padding: 40px 0;
-}
+} */
+
 body {
 	/* font-family: 'Montserrat', sans-serif; */
 	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Titillium Web', sans-serif; */
+	/* font-size: 0.95rem; */
 }
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: #bdc3c7;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* .btn-info,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:visited {
+	background-color: #f1c40f !important;
+} */
+
 h1 {
 	font-size: 5rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
+	font-weight: 700;
 }
+
 h5 {
 	margin: 15px 0;
 }
+
 #img-portfolio {
 	border-radius: 50%;
+	border: 10px solid black;
 }
 
 #skills,
 #greeting,
 #contact {
-	padding: 40px 0;
+	padding: 70px 0;
 }
+
 .navbar {
 	font-weight: 400;
 	position: absolute;
@@ -36,31 +57,43 @@ h5 {
 	left: 0;
 	z-index: 3;
 }
+
 .navbar .navbar-brand h3 {
 	font-weight: 100;
 }
+
 .navbar .nav-item {
 	font-size: 1.3rem;
 }
+
 .navbar .nav-link:hover {
 	transition: border 0.2s;
 	border-bottom: 1px solid white;
+}
+
+#nav-logo {
+	font-size: 0.8rem;
 }
 
 p {
 	line-height: 170%;
 }
 
+/* yellow https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 */
+/* green https://images.unsplash.com/photo-1529917365646-d9b0d968d713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80 */
+/* texture https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 */
 #showcase {
-	background: url("https://images.unsplash.com/photo-1529917365646-d9b0d968d713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80")
+	background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
 		bottom center/cover no-repeat;
 	min-height: 750px;
 	position: relative;
 	width: 100%;
 }
+
 #showcase #header {
 	z-index: 2;
 }
+
 #showcase #overlay {
 	background: rgba(0, 0, 0, 0.4);
 	position: absolute;
@@ -70,10 +103,12 @@ p {
 	height: 100%;
 	z-index: 1;
 }
+
 #showcase h1 {
 	font-family: "Questrial", sans-serif;
 	line-height: 1;
 }
+
 #showcase #book {
 	font-size: 1.5rem;
 	border-radius: 2rem;
@@ -83,16 +118,32 @@ p {
 	#showcase h1 {
 		font-size: 3rem;
 	}
+
 	#showcase {
 		min-height: 500px;
 	}
+
+	body {
+		font-size: 0.9rem;
+	}
 }
 
-img {
+.portfolio-example {
+	width: 60%;
+}
+
+/* #showcase-work {
+	min-height: 550px;
+} */
+#img-portfolio {
 	border-radius: 50%;
 }
 
 i {
 	font-size: 32px;
 	margin: 0 7px;
+}
+
+.work {
+	padding: 20px 0;
 }

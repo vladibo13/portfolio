@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/app.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700&display=swap" rel="stylesheet"> -->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
 
@@ -26,10 +25,10 @@
             <div class="collapse navbar-collapse" id="mainNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="./index.html" class="nav-link">Home</a>
+                        <a href="../index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./pages/work.html" class="nav-link">Work</a>
+                        <a href="./work.html" class="nav-link">Work</a>
                     </li>
 
 
@@ -37,50 +36,64 @@
             </div>
         </div>
     </nav>
-
     <section id="showcase" class="d-flex justify-content-center align-items-center">
         <div id="overlay"></div>
         <div id="header" class="container text-white text-center">
 
-            <h1 class=" mb-5">I'm Vladimir.</h1>
-            <p class="lead">a web developer.</p>
+            <h1 class=" mb-5">Work.</h1>
+
 
         </div>
     </section>
-
-    <section id="about" class="text-center container">
-        <div class="" id="greeting">
-            <img class=" d-block mx-auto mb-3" width="200px" src="./img/avatar-3.png" id="img-protfolio" alt="">
-            <h2 class=" d-block my-3 ">About.</h2>
-            <p class="w-75 mx-auto">I'm a web developer based in Tel Aviv Israel. I have a passion for web
-                development and love to create for web and mobile devices</p>
-            <!-- <i class="icon ion-md-water"></i>
-                        <i class="icon ion-md-water"></i>
-                        <i class="icon ion-md-water"></i>
-                        <i class="icon ion-md-water"></i>
-                        <i class="icon ion-md-water"></i> -->
+    <section class="work text-center  ">
+        <div class="container  py-5  rounded">
+            <img class="d-block mx-auto portfolio-example" src="../img/movies-app.png" />
+            <div id="skills-work mt-3">
+                <h2 class="mt-5">Movies Search.</h2>
+                <p class=""> <u>React, Redux</u></p>
+                <p class="w-75 mx-auto"> React application for searching movies using OMDB API.</p>
+                <!-- <a class="btn  btn-outline-info p-3 mt-4">View On Github</a> -->
+                <a class="btn btn-outline-info px-4 py-2 mt-2">View On Github</a>
+                <a class="btn btn-outline-info px-4 py-2 mt-2">Live Demo</a>
+            </div>
         </div>
-        <hr class="w-25 mx-auto" />
-        <div id="skills">
-            <h2 class="">My Skills.</h2>
-            <h5>Full Stack Web Development</h5>
-            <p class="w-75 mx-auto"> I know how to create a website to run across devices using the latest
-                technologies available.</p>
-        </div>
-        
-        
-        <hr class="w-25 mx-auto" />
-        <div id="contact">
-            <h2>Get In Touch.</h2>
-            <p class="w-75 mx-auto">If you liked some of my projects and the work I've done so far, please feel free to contact me. I'm currently looking for internship or an entry level position.
-            </p>
-            <a href="malito:vl.bozhkov@gmail.com" class="btn btn-info mt-3 px-4 py-2">Contact Me</a>
-        </div>
-
     </section>
+    <hr class="w-25 mx-auto">
+    <section class="work text-center  ">
+        <div class="container  py-5  rounded">
+            <img class="d-block mx-auto portfolio-example" src="../img/crypto.png" />
+            <div id="skills-work mt-3">
+                <h2 class="mt-5">Crypto.</h2>
+                <p class=""> <u>jQuery, API Requests with Axios, ES6, Bootstrap, Ajax</u></p>
+                <p class="w-75 mx-auto"> Single Page Application providing information and reports to the world of virtual commerce.</p>
+                <!-- <a class="btn  btn-outline-info p-3 mt-4">View On Github</a> -->
+                <a class="btn btn-outline-info px-4 py-2 mt-2">View On Github</a>
+                <a class="btn btn-outline-info px-4 py-2 mt-2">Live Demo</a>
+            </div>
+        </div>
+    </section>
+   <hr class="w-25 mx-auto">
 
+    <section class="work text-center ">
+        <div class="container  py-5  rounded ">
+                <!-- <h2 class="mt-5">Sticky Notes.</h2>
+                <p class=""> <u>Vanilla JavaScript, Local Storage, DOM, Data Structures(Objects, Arrays), Form Validation</u></p> -->
+           <img class="d-block mx-auto rounded portfolio-example" src="../img/sticky-notes-4.png" />
+            <div id="skills-work ">
+                     <h2 class="mt-5">Sticky Notes.</h2>
+                <p class=""> <u>Vanilla JavaScript, Local Storage, DOM, Data Structures(Objects, Arrays), Form Validations</u></p>
+                <p class="w-75 mx-auto">
+                    Taskbar application that allows  to add tasks to the board, each containing the job description and target time
+                    for the task.</p>
+            </div>
+            <a class="btn btn-info px-4 py-2 mt-2">View On Github</a>
+            <a class="btn btn-info px-4 py-2 mt-2">Live Demo</a>
+            <!-- <a href="">View On Github</a> -->
+        </div>
+    </section>
+  
     <!-- Footer -->
-    <footer class="bg-dark ">
+    <footer class="bg-dark">
 
         <!-- Footer Elements -->
         <div class="container">
@@ -89,9 +102,8 @@
             <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-md-12 py-3 mt-3">
+                <div class="col-md-12 py-1 mt-2">
                     <div class="d-flex justify-content-center text-white">
-
                         <a href="https://github.com/vladibo13" class="mx-2">
                             <i class="icon ion-logo-github"></i>
                         </a>
@@ -101,7 +113,6 @@
                         <a href="https://www.linkedin.com/" class="mx-2">
                             <i class="icon ion-logo-linkedin"></i>
                         </a>
-
                     </div>
                 </div>
                 <!-- Grid column -->
@@ -126,7 +137,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
     </script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>
