@@ -73,6 +73,8 @@ h5 {
 
 #nav-logo {
 	font-size: 0.8rem;
+	letter-spacing: 1px;
+	font-weight: 300;
 }
 
 p {
@@ -146,4 +148,16 @@ i {
 
 .work {
 	padding: 20px 0;
+}
+
+u {
+	font-size: 0.8rem;
+}
+
+.btn-info {
+	font-size: 0.85rem;
+}
+
+#logo {
+	font-size: 700;
 }
