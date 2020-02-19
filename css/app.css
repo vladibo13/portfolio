@@ -87,7 +87,7 @@ p {
 #showcase {
 	background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
 		bottom center/cover no-repeat;
-	min-height: 750px;
+	min-height: 100vh;
 	position: relative;
 	width: 100%;
 }
@@ -122,7 +122,7 @@ p {
 	}
 
 	#showcase {
-		min-height: 500px;
+		min-height: 100vh;
 	}
 
 	body {
