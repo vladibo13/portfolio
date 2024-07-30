@@ -231,7 +231,14 @@
       <!-- Footer Elements -->
 
       <!-- Copyright -->
-      <div class="text-center py-3 text-white">© 2020 Copyright</div>
+      <div class="text-center py-3 text-white">
+        ©
+        <script>
+          const currentYear = new Date().getFullYear();
+          document.write(currentYear);
+        </script>
+        Copyright
+      </div>
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
